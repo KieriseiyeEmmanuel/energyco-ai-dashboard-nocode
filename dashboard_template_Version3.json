@@ -1,0 +1,12 @@
+{
+  "dashboard": {
+    "sections": [
+      { "header": "KPI Overview", "widgets": ["KPICards"] },
+      { "header": "Production & Financial Charts", "widgets": ["InteractiveCharts"] },
+      { "header": "AI Insights", "widgets": ["AIAssistantPanel"] },
+      { "header": "Sustainability", "widgets": ["SustainabilityMetrics"] }
+    ],
+    "companySelector": true,
+    "roleBasedAccess": true
+  }
+}

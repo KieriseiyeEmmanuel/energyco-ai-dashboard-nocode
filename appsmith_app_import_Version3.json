@@ -1,0 +1,27 @@
+{
+  "name": "EnergyCo Executive AI Dashboard",
+  "pages": [
+    {
+      "name": "Dashboard",
+      "widgets": [
+        { "type": "CompanySelector", "companies": ["Chevron", "Total", "NNPC", "Dangote"] },
+        { "type": "KPICards", "metrics": ["Oil Production", "Gas Output", "Refinery Utilization", "OPEX", "CAPEX", "Net Profit Margin", "Market Share"] },
+        { "type": "AIAssistantPanel", "features": ["Q&A", "Predictive Analytics", "Summaries", "Anomaly Detection"] },
+        { "type": "InteractiveCharts", "charts": ["Production Trends", "Financials", "Sustainability", "Geographical"] },
+        { "type": "SustainabilityMetrics", "metrics": ["CO2 Emissions", "Renewable Share", "ESG Scores"] }
+      ]
+    }
+  ],
+  "theme": {
+    "mode": "dark",
+    "effects": ["glassmorphism", "animatedTransitions"],
+    "typography": "modern"
+  },
+  "auth": {
+    "roles": ["Admin", "Manager", "Analyst"]
+  },
+  "branding": {
+    "logoPath": "assets/",
+    "colors": ["#1B263B", "#415A77", "#F5F5F5"]
+  }
+}
